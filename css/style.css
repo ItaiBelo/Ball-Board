@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+.rest {
+    display: none;
+    border-radius: 10px;
+    background-color: rgb(20, 77, 220);
+    border: 1px rgb(0, 179, 255) solid;
+    margin: auto;
+
+}
+
+.modal {
+    text-align: center;
+    background-color: lightseagreen;
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 45%;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+}
